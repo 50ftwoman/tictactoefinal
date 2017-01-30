@@ -14,7 +14,7 @@ h1 {
 .blankbox {
   height: 200px;
   width: 200px;
-  margin: -1.9px;
+  margin: -1px;
   padding: 0px;
   border: 4px white solid;
   background-color: rgb(183, 141, 158);
@@ -26,12 +26,27 @@ h1 {
 }
 
 .board {
-  height: 800px;
+  height: 900px;
   border: 2px silver solid;
   background-color: rgb(135, 59, 89);
   box-shadow: 5px 5px 5px 5px silver;
-  padding: 75px;
-  margin: 100px 250px 0px 250px;
+  padding: 50px;
+  margin: 100px 150px 0px 250px;
+  min-width: 900px;
 
 
+}
+
+#resetButton {
+  font-family: 'Just Another Hand', cursive;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-variant: small-caps;
+  border: 2px solid white;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  background: rgb(183, 141, 158);
+  margin: 0 auto;
 }

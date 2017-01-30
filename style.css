@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  margin:50px;
+
+}
+
+h1 {
+  font-family: 'Just Another Hand', cursive;
+  color: white;
+  font-size: 150px;
+  font-variant: small-caps;
+  margin: 5px;
+}
+.blankbox {
+  height: 200px;
+  width: 200px;
+  margin: -1.9px;
+  padding: 0px;
+  border: 4px white solid;
+  background-color: rgb(183, 141, 158);
+  display: inline-block;
+  background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.board {
+  height: 800px;
+  border: 2px silver solid;
+  background-color: rgb(135, 59, 89);
+  box-shadow: 5px 5px 5px 5px silver;
+  padding: 75px;
+  margin: 100px 250px 0px 250px;
+
+
+}
